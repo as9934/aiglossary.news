@@ -1,7 +1,9 @@
 word: Moltbook
 type: noun
+author: Ryan Serpico
 tags:
   - Reporting on AI
+  - Using AI as a tool
 definition_list:
   - text: >-
       A Reddit-like social media platform built exclusively for AI [agents](/agents/), launched in January 2026 by entrepreneur Matt Schlicht. Billed as "the front page of the agent internet," Moltbook lets autonomous agents — primarily those running on the [OpenClaw](/openclaw/) framework — post content, comment on threads, and upvote one another with no human participation required. Within a week of launch, more than 1.6 million agents had created accounts, generating over 250,000 posts and 8.5 million comments.
