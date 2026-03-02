@@ -1,0 +1,26 @@
+word: Jevons paradox
+type: noun
+author: Jon Keegan
+last_updated: "Last updated: March 2, 2026"
+definition_list:
+  - text:  >- 
+        The [Jevons paradox](https://sherwood.news/tech/jevons-paradox-latest-jargon-need-to-know-signal-smart-ai/) is a phenomenon in which technology makes a resource cheaper and more abundant, but rather than leading to a drop in demand for that resource, it results in increased demand, and an increase in consumption of that resource. 
+
+
+        English economist [William Stanley Jevons](https://en.wikipedia.org/wiki/William_Stanley_Jevons) first described the paradox while studying the use of coal in 1865. A technological leap in efficiency allowed steam engines to use less coal, but it only stoked huge demand for the fuel.
+
+
+        In the context of AI, this idea has been widely applied to the disruption that Chinese AI lab DeepSeek brought to the industry. DeepSeek [shocked the AI industry](https://sherwood.news/tech/deepseek-china-ai-model-stock-market-explainer-gpus-openai/) when it revealed DeepSeek R1 — a faster, cheaper open source AI model that was trained on older hardware for a fraction of the cost of the big American AI startups. 
+
+        
+        The new approach called into question the leading AI startups’ insatiable quest for acquiring more of the latest, most expensive GPUs to make larger, and larger models. Perhaps DeepSeek had shown that you don’t really need to [spend hundreds of billions](https://sherwood.news/tech/deepseeks-dirt-cheap-ai-microsoft-meta-alphabet-amazons-ai-spending-in-focus/) on massive data centers. 
+        
+
+        Observers argued that the Jevons paradox would mean that the DeepSeek technology leap would just mean that companies could use more AI computing resources for a lower cost, and end up consuming more.
+
+
+    in_use:
+      - text: "Jevons paradox strikes again! As AI gets more efficient and accessible, we will see its use skyrocket, turning it into a commodity we just can't get enough of."
+        source: Microsoft CEO Satya Nadella on X
+        url: https://x.com/satyanadella/status/1883753899255046301?lang=en
+        

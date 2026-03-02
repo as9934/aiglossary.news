@@ -1,0 +1,13 @@
+word: Open source / open weights models
+type: noun
+author: Jon Keegan
+last_updated: "Last updated: March 2, 2026"
+definition_list:
+  - text:  >- 
+        Open source models refer to AI models that can be used for any purpose, including commercial use, without paying for a license. Depending on the specific license under which it was released, an open source model may allow derivative works, and it may require that any derivative works also be open source.
+
+
+        Open weights models refer to models in which the "weights" — the parameters that determine how the model processes information — are publicly available. This allows anyone to use, modify, and customize the model. This does not ncessarily mean that the underlying training data is public, and it does not necessarily mean that the model is open source. 
+
+
+        Journalists should be aware that, in addition to being tailored for different applications, open weights models can also have safeguards or restrictions removed, which can lead to misuse and harm.

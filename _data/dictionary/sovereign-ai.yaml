@@ -1,0 +1,29 @@
+word: Sovereign AI
+type: noun
+author: Jon Keegan
+last_updated: "Last updated: March 2, 2026"
+definition_list:
+  - text:  >- 
+       [Sovereign AI](https://sherwood.news/tech/why-countries-are-seeking-to-build-sovereign-ai/) refers to domestically sourced AI models, tools, and infrastructure. 
+
+
+        The United States is home to the leading AI companies that have defined the generative AI boom. Increasingly, countries have realized how important a role the maker of an AI model is — not only do you decide what material it was trained on, you get to decide what the AI model knows as the truth. 
+
+
+        As the United States upsets long-standing alliances and uses trade to gain leverage across the globe, nations are growing uneasy with America dominating so much of AI technology. Countries around the world are racing to [build their own sovereign AI systems](https://sherwood.news/tech/europe-wants-to-break-up-with-us-tech-heres-how-it-plans-on-doing-that/), and companies like Nvidia are actively seeking this business.  
+
+
+        Journalists should pay attention to who are the arbiters of truth for controversial topics as countries develop their own [national models](https://sherwood.news/tech/switzerland-launches-apertus-an-open-source-ai-model-trained-on-public-data/), and be aware that [propaganda and re-written history](https://sherwood.news/tech/a-free-powerful-chinese-ai-model-just-dropped-but-dont-ask-it-about/) can be baked into these systems, in ways that users may not understand. 
+
+
+    in_use:
+      - text: "To lessen this reliance on US tech, EU leaders set out to create an alternative tech “EuroStack” that could replace American tech with home-grown European alternatives for AI, cloud computing, software, and hardware. Over the past few months, EU officials have embraced the plan and fleshed out details of the ambitious initiative."
+        source: Sherwood News
+        url: https://sherwood.news/tech/europe-wants-to-break-up-with-us-tech-heres-how-it-plans-on-doing-that/
+      
+      - text: "But Nvidia is also telling the leaders of foreign governments that building and training their own AI systems can have… other benefits. 
+
+
+      At an event in Dubai earlier this year, Huang told Omar Al Olama, the UAE’s Minister of AI, “It codifies your culture, your society’s intelligence, your common sense, your history — you own your own data."
+        source: Sherwood News
+        url: https://sherwood.news/tech/why-countries-are-seeking-to-build-sovereign-ai/
