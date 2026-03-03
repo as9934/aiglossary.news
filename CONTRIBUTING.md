@@ -61,6 +61,11 @@ word: the word
 type: is it a noun, verb or adjective
 definition_list:
   - text: this is the first definition of the word
+    image:
+      src: /assets/images/definition/my-image.png
+      alt: Description of what the image shows
+      caption: Image courtesy of Source Name
+      credit_url: https://example.com
     in_use:
       - text: this is _the word_ used in a sentence
         source: The Example Post
@@ -71,6 +76,13 @@ definition_list:
         source: The Example Times
         url: example.com
 ```
+
+The `image` field is optional. If included, it should contain:
+
+- `src` (required): Path to the image file, relative to the site root. Images should be placed in the `/assets/images/definition/` directory.
+- `alt` (required): Alt text describing the image content for screen readers.
+- `caption` (optional): A caption or credit line displayed below the image.
+- `credit_url` (optional): A URL that the caption will link to.
 
 An example of a simple implementation would look like this:
 
