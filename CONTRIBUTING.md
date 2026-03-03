@@ -84,6 +84,50 @@ The `image` field is optional. If included, it should contain:
 - `caption` (optional): A caption or credit line displayed below the image.
 - `credit_url` (optional): A URL that the caption will link to.
 
+### Inline Markdown and definition numbering
+
+You may include Markdown inside the `text:` field of a definition. The site
+converts Markdown to HTML when pages are built, so you can use standard image
+syntax to embed images directly in the definition text, for example:
+
+```yaml
+definition_list:
+  - text: >-
+      Here's an explanation of vectors.
+
+      ![A 2D vector diagram showing x and y components.](/assets/images/definition/vector-diagram.png)
+
+      More explanation here.
+```
+
+If you prefer to provide images as structured fields you can still use the
+optional `image:` object shown earlier in this doc.
+
+By default, if a term has multiple `definition_list` entries the site will
+render small numeric indexes (`<sup>1</sup>`, `<sup>2</sup>`, etc.) before
+each definition. To opt out of automatic numbering for a particular term,
+add the boolean `show_indexes: false` at the top level of that term's YAML:
+
+```yaml
+word: vector embedding
+type: noun
+show_indexes: false
+definition_list:
+  - text: >-
+      First, a high-level description.
+  - text: >-
+      A secondary note or nuance.
+```
+
+Notes:
+
+- Use root‑relative paths for images (for example `/assets/images/definition/...`).
+- The build will render Markdown to HTML; ensure the referenced image files exist
+  in `assets/images/definition/` before submitting a PR.
+- The renderer expects `definition_list[*].text` to be a string; if a
+  definition intentionally has no `text:` field, include an explicit empty
+  string (`text: ''`) to avoid build-time errors.
+
 An example of a simple implementation would look like this:
 
 ```yaml
